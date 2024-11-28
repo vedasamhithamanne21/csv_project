@@ -8,6 +8,11 @@ This project is a TypeScript-based application for processing CSV files.
 - Parse and validate CSV data
 - Export processed data
 
+## Prerequisites
+
+- Node.js (v14 or above)
+- npm (v6 or above)
+
 ## Installation
 
 1. Clone the repository:
@@ -31,10 +36,30 @@ This project is a TypeScript-based application for processing CSV files.
     ```
 2. Follow the on-screen instructions to process your CSV files.
 
-## Contributing
+## Scripts
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Create a new Pull Request
+- `dev`: Run the development server
+- `build`: Create a production build
+- `start`: Start the production server
+- `lint`: Run ESLint
+
+**Languages**
+TypeScript
+Tools and Frameworks
+Next.js
+React
+Tailwind CSS
+ESLint
+PostCSS
+Chart.js
+CSV-Parse
+PostgreSQL (pg library)
+**Development Dependencies**
+TypeScript
+@types/node
+@types/react
+@types/react-dom
+@types/pg
+**Key Features**
+Load, parse, and validate CSV files
+Export processed data.
